@@ -61,12 +61,12 @@ footer {
 }
 
 .about-image {
-  flex: 0 0 220px; /* fixed width for image */
+  flex: 0 0 150px; /* fixed width for image */
 }
 
 .about-image img {
-  width: 220px !important;    /* size your image */
-  height: 220px !important;   /* same height for square */
+  width: 150px !important;    /* size your image */
+  height: 150px !important;   /* same height for square */
   object-fit: cover; /* ensures it fills the square */
   border-radius: 8px; /* slight rounding, optional */
   display: block;

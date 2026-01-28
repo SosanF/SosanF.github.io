@@ -50,26 +50,28 @@ footer {
   color: #666;
 }
 
-/* --- New CSS for About section with profile image --- */
+/* About section with square image on left */
 .about {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 40px;
+  gap: 30px;
   margin: 40px auto;
   max-width: 900px;
   padding: 0 20px;
 }
 
-.about-text {
-  flex: 1;
-}
 .about-image {
-  flex: 0 0 180px; /* image width */
+  flex: 0 0 150px; /* fixed width for image */
 }
 
 .about-image img {
-  width: 100%;
-  border-radius: 50%; /* circular profile pic */
+  width: 150px;    /* size your image */
+  height: 150px;   /* same height for square */
+  object-fit: cover; /* ensures it fills the square */
+  border-radius: 8px; /* slight rounding, optional */
   display: block;
+}
+
+.about-text {
+  flex: 1;
 }

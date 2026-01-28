@@ -65,8 +65,8 @@ footer {
 }
 
 .about-image img {
-  width: 270px;    /* size your image */
-  height: 270px;   /* same height for square */
+  width: 270px !important;    /* size your image */
+  height: 270px !important;   /* same height for square */
   object-fit: cover; /* ensures it fills the square */
   border-radius: 8px; /* slight rounding, optional */
   display: block;

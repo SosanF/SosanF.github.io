@@ -1,9 +1,20 @@
-body {
-  font-family: Georgia, "Times New Roman", serif;
-  margin: 0;
-  background: #ffffff;
-  color: #222;
-  line-height: 1.7;
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --link-color: #333333;
+  --border-color: #dddddd;
+}
+
+/* Dark mode */
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+  --link-color: #cccccc;
+  --border-color: #444444;
+}
+ body {
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 
 header {
@@ -23,7 +34,7 @@ nav {
 nav a {
   margin: 0 12px;
   text-decoration: none;
-  color: #333;
+  color: var(--link-color);
   font-size: 0.95rem;
 }
 
@@ -39,7 +50,7 @@ main {
 
 h2 {
   font-weight: normal;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 6px;
 }
 
@@ -95,4 +106,13 @@ footer {
 .teaching-item li {
   margin-bottom: 5px;
   line-height: 1.5;
+}
+#theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
 }

@@ -93,7 +93,7 @@ footer {
 
 .teaching-item h3 {
   font-weight: normal;
-  color: var(--text-color);
+  color: var(--text-color)!important;
   margin-bottom: 8px;
   font-size: 1.1rem;
 }

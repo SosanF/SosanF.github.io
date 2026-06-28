@@ -117,31 +117,36 @@ footer {
   cursor: pointer;
 }
 
-/* Talks table */
+/* Container matches the width of the paragraph */
+.table-container {
+    max-width: 850px;
+    margin: 30px auto;
+}
+
+/* Table */
 .talks-table {
-  width: 100%;
-  margin-top: 20px;
-  border-collapse: separate;
-  border-spacing: 20px 12px; /* horizontal and vertical spacing */
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .talks-table th,
 .talks-table td {
-  padding: 10px;
-  vertical-align: middle;
+    padding: 12px 18px;
+    vertical-align: top;
 }
 
 .talks-table th {
-  text-align: center;
-  font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #999;
 }
 
 .talks-table td:first-child,
 .talks-table td:last-child {
-  text-align: center;
-  white-space: nowrap;
+    text-align: center;
+    white-space: nowrap;
+    width: 120px;
 }
 
 .talks-table td:nth-child(2) {
-  text-align: left;
+    text-align: left;
 }

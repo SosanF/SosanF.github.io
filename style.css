@@ -140,5 +140,16 @@ footer {
 .talks-table tr:nth-child(even) {
   background-color: #fafafa;
 }
-```
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 20px 10px; /* horizontal vertical spacing */
+}
+
+th, td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
 

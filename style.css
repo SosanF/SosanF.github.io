@@ -116,3 +116,29 @@ footer {
   font-size: 1.2rem;
   cursor: pointer;
 }
+
+```css
+.talks-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.talks-table th,
+.talks-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.talks-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.talks-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+```
+

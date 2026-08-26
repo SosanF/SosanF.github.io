@@ -152,7 +152,7 @@ footer {
     text-align: left;
 }
 body {
-  background-image: url("images/background.png");
+  background-image: url("image/background.png");
   background-size: cover;       /* makes it fill the screen */
   background-repeat: no-repeat; /* prevents tiling */
   background-attachment: fixed; /* keeps it steady when scrolling */

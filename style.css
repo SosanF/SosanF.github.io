@@ -158,6 +158,9 @@ body {
   background-attachment: fixed; /* keeps it steady when scrolling */
   background-position: center;  /* centers the image */
 }
-<span style="color:purple">This text will appear in purple.</span>
+body {
+  color: purple;
+}
+
 
 
